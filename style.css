@@ -1,0 +1,13 @@
+.screen {
+  background-color: red;
+  width: 600;
+  height: 1100;
+}
+
+#homeMenu {
+  flex-direction: column;
+}
+
+.homeButton {
+  flex: 100%;
+}
