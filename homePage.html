@@ -1,18 +1,25 @@
+
 <html>
   <head>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    <script src="https://kit.fontawesome.com/11a1800161.js" crossorigin="anonymous"></script>
+</head>
+  <body >
     <div class="screen">
+      <div id="title">
+        <img src="./images/drinkster.png"></img>
+      </div>
       <div id="homeMenu">
         <div class="homeButton">
-          <button onclick="document.location='joinParty.html'">
-            FIND PARTY
+          <button style="color: #bd2b2b;" onclick="document.location='joinParty.html'">
+            <text id="buttonText">FIND PARTY</text>
           </button>
         </div>
-        <div class="homeButton"><button>CREATE PARTY</button></div>
-        <div class="homeButton"><button>LEADERBOARDS</button></div>
+        <div class="homeButton"><button style="color: #cd3fff"><text id="buttonText" >CREATE PARTY</text></button></div>
+        <div class="homeButton"><button style="color: #ffae81"><text id="buttonText" >LEADERBOARDS</text></button></div>
       </div>
+      <i class="fas fa-user-friends friendsIcon" style="color:white"></i>
+      <text id="logOut">Log out</text>
     </div>
   </body>
 </html>
