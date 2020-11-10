@@ -67,21 +67,20 @@
 }
 
 .friendsIcon {
-  position: absolute;
+  position: relative;
   font-size: 45;
-  top: 635;
-  left: 25;
+  top: 270;
+  left: 15;
 }
 
 #logOut {
-  position: absolute;
-  top: 645;
-  right: 105;
+  position: relative;
   font-family: Rubik;
   font-style: normal;
   font-weight: normal;
   font-size: 26px;
   line-height: 31px;
-
+  top: 265;
+  left: 210;
   color: #ffffff;
 }
